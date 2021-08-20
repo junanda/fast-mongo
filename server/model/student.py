@@ -42,7 +42,7 @@ class UpdateStudentModel(BaseModel):
 
 def response_model(data, message):
     return {
-        "data": [data],
+        "body": [data],
         "code": 200,
         "message": message
     }
